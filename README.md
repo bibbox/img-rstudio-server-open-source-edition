@@ -23,10 +23,13 @@ Once the Rstudio server is up and running you can access it via `http://localhos
 ### Add a new user:
 
 Open the shell in the docker:
+
 `docker exec -it <container_name> bash`
 
 Now you can add a user via:
+
 `useradd -ms /bin/bash "<new_username>"`
+
 `passwd "<new_username>"`
 
 done.
